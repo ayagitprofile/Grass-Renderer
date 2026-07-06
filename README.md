@@ -1,7 +1,8 @@
-Grass renderer written in C++ using OpenGL as a graphics API. This project helped me learn Intermediate level OpenGL code, Compute shaders, GPU Culling and Infirect Drawing.
+Grass renderer written in C++ using OpenGL as a graphics API. <br>
+This project helped me learn Intermediate level OpenGL code, Compute shaders, GPU Culling and Infirect Drawing. <br>
 <img width="1920" height="1011" alt="image" src="Assets/textures/preview.png" />
 
-Dependencies are:
+Dependencies are: <br>
 Dear ImGui - Immediate mode gui for debug info <br>
 GLM - Math <br>
 stb_image - Image loading <br>
