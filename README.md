@@ -2,9 +2,9 @@ Grass renderer written in C++ using OpenGL as a graphics API. This project helpe
 <img width="1920" height="1011" alt="image" src="Assets/textures/preview.png" />
 
 Dependencies are:
-Dear ImGui - Immediate mode gui for debug info
-GLM - Math
-stb_image - Image loading
-glfw - Windowing and input
-glad - Easy access to OpenGL functions
-TinyObjLoader - for loading simple .obj meshes
+Dear ImGui - Immediate mode gui for debug info <br>
+GLM - Math <br>
+stb_image - Image loading <br>
+glfw - Windowing and input <br>
+glad - Easy access to OpenGL functions <br>
+TinyObjLoader - for loading simple .obj meshes <br>
