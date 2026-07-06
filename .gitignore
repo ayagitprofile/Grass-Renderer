@@ -100,7 +100,6 @@ StyleCopReport.xml
 *_h.h
 *.ilk
 *.meta
-*.obj
 *.idb
 *.iobj
 *.pch
@@ -126,6 +125,10 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
+*x64/Release
+*x64/Debug
+*x32/Release
+*x32/Debug
 
 # Chutzpah Test files
 _Chutzpah*
