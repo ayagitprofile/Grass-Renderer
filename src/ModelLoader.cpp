@@ -33,7 +33,7 @@ std::optional<Grass::ModelData> Grass::ModelLoader::LoadOBJ(std::filesystem::pat
 
 	bool ok = tinyobj::LoadObj(&attrib, &shapes, &materials, &err, &file);
 
-	if (!err.empty() || !ok) {
+	if (!err.empty() || !ok || shapes.size() == 0) {
 		std::cerr << "[Model Loader] Failed to load model: " << filePath << " error: " << err << std::endl;
 		return {};
 	}
